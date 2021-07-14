@@ -26,11 +26,12 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Languages</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certifications</a></li>
                 </ul>
             </div>
         </nav>
@@ -47,7 +48,7 @@
                         Corso Vittorio Emanuele 11 · 35123 - Padova, Italy · +39 347 4834 240 ·
                         <a href="mailto:wishnuputra.dhanu@gmail.com">wishnuputra.dhanu@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">I am a Master Degree student at the University of Padova. I am studying ICT for Internet and Multimedia. My goal is to be an expert Software Engineer in the field of Computer Vision, Deep Learning, and Web Application.</p>
+                    <p class="lead mb-5">I am a Master Degree student at the University of Padova. I am studying ICT for Internet and Multimedia. My goal is to be an expert Software Engineer in the field of Computer Vision, and Artificial Intelligence.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/wishnuputra-dhanu/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/wishnuputra"><i class="fab fa-github"></i></a>
@@ -56,6 +57,34 @@
                 </div>
             </section>
             <hr class="m-0" />
+
+            <!-- Project-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Recent Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Image Stitcher</h3>
+                            <p>This program will build a panoramic image by stitching several images that are taken consecutively. This is done by first projecting the image onto a cylinder. Then we extract the features of each image using SIFT descriptors. Next we find the matching features between each consecutive image. Then we the translation matrix between couple of adjacent images using robust estimator RANSAC. Finally we can construct the panoramic image using this translation matrix.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><a href="https://github.com/wishnuputra/CV_LAB4">See project on Github</a></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Image Equalizer</h3>
+                            <p>
+                              This first part of the program will enhance the input image by equalizing the RGB channels of the image. This program will also produce better results by equalizing only the Luminance channel.
+                            </p>
+                            <p>
+                              The second part of the program will filter the image using three types of filters which are Median Filter, Gaussian Blur, and Bilateral Filter. This filters are used to soften and blur the input image.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><a href="https://github.com/wishnuputra/UNIPD_LAB2">See project on Github</a></span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
@@ -140,7 +169,7 @@
                     <div class="subheading mb-3">Programming Languages & Frameworks</div>
                     <ul>
                         <li>Computer Vision: C++, OpenCV</li>
-                        <li>Deep Learning: MATLAB, Python, Pytorch</li>
+                        <li>Deep Learning: MATLAB, Python, Pytorch, Tensorflow</li>
                         <li>Web Development: HTML, CSS, JavaScript, SQL</li>
                         <li>Mobile Development: Java, Kotlin, Android Studio</li>
 
@@ -171,45 +200,45 @@
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             edX: Massachusetts Institute of Technology<br>
                             <ul>
-                              <li>Introduction to Computer Science and Programming in Python</li>
+                              <li><a href="https://courses.edx.org/certificates/65c48533ffed4790bed106179a90ff8f">Introduction to Computer Science and Programming in Python</a></li>
                             </ul>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             Introduction to Computer Science and Programming in Python<br>
                             <ul>
-                              <li>Software Development Fundamental</li>
-                              <li>Data Structure and Software Design</li>
-                              <li>Programming for the Web with JavaScript</li>
+                              <li><a href="https://courses.edx.org/certificates/55cc7375f36042949637648ea8984ac7">Software Development Fundamental</a></li>
+                              <li><a href="https://courses.edx.org/certificates/6b5ad7a612c14caf832476b4d8ff90a6">Data Structure and Software Design</a></li>
+                              <li><a href="https://courses.edx.org/certificates/0080bb2f639248b88292aca5b9b2818c">Programming for the Web with JavaScript</a></li>
                             </ul>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             edX: Rice University
                             <ul>
-                              <li>Linear Algebra</li>
+                              <li><a href="https://courses.edx.org/certificates/bf0782a16c584a58834c1c6fe12f73e1">Linear Algebra</a></li>
                             </ul>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             edX: Purdue University
                             <ul>
-                              <li>AP Computer Science A: Java Programming</li>
+                              <li><a href="https://courses.edx.org/certificates/cd731a27a00e4e9e96aaadd4d1a2960f">AP Computer Science A: Java Programming</a></li>
                             </ul>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             coursera: University of Michigan
                             <ul>
-                              <li>Building Web Application in PHP</li>
-                              <li>Introduction to Structured Query Language</li>
+                              <li><a href="https://www.coursera.org/account/accomplishments/verify/Z9SV5MH69ZBQ">Building Web Application in PHP</a></li>
+                              <li><a href="https://www.coursera.org/account/accomplishments/certificate/49G3B5Z83RC5">Introduction to Structured Query Language</a></li>
                             </ul>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             coursera: JetBrains
                             <ul>
-                              <li>Kotlin for Java Developers</li>
+                              <li><a href="https://www.coursera.org/account/accomplishments/verify/YJHFFF3QC8PK">Kotlin for Java Developers</a></li>
                             </ul>
                         </li>
                     </ul>

@@ -45,10 +45,10 @@
                         <span class="text-primary">Dhanu</span>
                     </h1>
                     <div class="subheading mb-5">
-                        Corso Vittorio Emanuele 11 · 35123 - Padova, Italy · +39 347 4834 240 ·
+                        Via Cesare Cremonino 58 · 35124 - Padova, Italy · +39 347 4834 240 ·
                         <a href="mailto:wishnuputra.dhanu@gmail.com">wishnuputra.dhanu@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">I am a Master Degree student at the University of Padova. I am studying ICT for Internet and Multimedia. My goal is to be an expert Software Engineer in the field of Computer Vision, and Artificial Intelligence.</p>
+                    <p class="lead mb-5">I am a Master Degree student at the University of Padova. I am studying ICT for Internet and Multimedia. My objective is to be an expert Software Engineer in the field of Software Development, and Artificial Intelligence.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/wishnuputra-dhanu/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/wishnuputra"><i class="fab fa-github"></i></a>
@@ -65,6 +65,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Image Stitcher</h3>
+                            <div class="subheading mb-3">C++, OpenCV</div>
                             <p>This program will build a panoramic image by stitching several images that are taken consecutively. This is done by first projecting the image onto a cylinder. Then we extract the features of each image using SIFT descriptors. Next we find the matching features between each consecutive image. Then we the translation matrix between couple of adjacent images using robust estimator RANSAC. Finally we can construct the panoramic image using this translation matrix.</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary"><a href="https://github.com/wishnuputra/CV_LAB4">See project on Github</a></span></div>
@@ -72,6 +73,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Image Equalizer</h3>
+                            <div class="subheading mb-3">C++, OpenCV</div>
                             <p>
                               This first part of the program will enhance the input image by equalizing the RGB channels of the image. This program will also produce better results by equalizing only the Luminance channel.
                             </p>
@@ -80,6 +82,66 @@
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary"><a href="https://github.com/wishnuputra/UNIPD_LAB2">See project on Github</a></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Darkroom</h3>
+                            <div class="subheading mb-3">Java</div>
+                            <p>
+                              This program is performed basic image processing such as rotate left and right, crop, blur, negative filter and flip horizontal. The file DarkRoomAlgorithms.java implements all of these image processing functionality.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><a href="https://github.com/wishnuputra/darkroom">See project on Github</a></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Game 2048</h3>
+                            <div class="subheading mb-3">Kotlin</div>
+                            <p>
+                              The objective of Game 2048 is to slide the numbered tile on the grid and combine them to create a tile with number 2048. This game is written in Kotlin.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><a href="https://github.com/wishnuputra/Game2048">See project on Github</a></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Hangman</h3>
+                            <div class="subheading mb-3">Python</div>
+                            <p>
+                              This program is a Hangman game which is written in Python as part of the assignment in MIT online course. The program will generate secret word randomly. Then the player will guess the letter until they can correctly guess the word or he/she has guessed wrongly for 8 times.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><a href="https://github.com/wishnuputra/python-hangman">See project on Github</a></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Word Ladder</h3>
+                            <div class="subheading mb-3">C++</div>
+                            <p>
+                              This program will run a word ladder game. The game will will request two input words from the user. Then it will find the bridge between the two words. A word ladder is a bridge between one word to another. It is formed by changing one letter at a time, the changes must formed another valid English word. Keep changing the letter until it reaches the other word. The two words must have same length and must be valid English words.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><a href="https://github.com/wishnuputra/word-ladder">See project on Github</a></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Game Of Life</h3>
+                            <div class="subheading mb-3">C++</div>
+                            <p>
+                              The simulation of the Game of Life originally conceived by
+                              the British mathematician J. H. Conway in 1970. The game
+                              simulates the life cycle of bacteria using two dimensional
+                              grid.
+                            </p>
+                            <p>
+                              The simulation start with an initial pattern of cells on
+                              the grid. The user type in the filename of the pattern.
+                              Then convert the pattern into grid object. Consequently it
+                              computes successive generations of cells according to
+                              following rules: A cell with 1 or fewer neighbors dies, Locations with 2 neighbors remain stable, Locations with 3 neighbors will create life, A cell with 4 or more neighbors dies."
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><a href="https://github.com/wishnuputra/game-of-life">See project on Github</a></span></div>
                     </div>
                 </div>
             </section>

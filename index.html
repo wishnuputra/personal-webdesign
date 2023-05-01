@@ -66,8 +66,7 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Image Stitcher</h3>
                             <div class="subheading mb-3">C++, OpenCV</div>
-                            <p>This program will build a panoramic image by stitching several images that are taken consecutively. This is done by first projecting the image onto a cylinder. Then we extract the features of each image using SIFT descriptors. Next we find the matching features between each consecutive image. Then we the translation matrix between couple of adjacent images using robust estimator RANSAC. Finally we can construct the panoramic image using this translation matrix.</p>
-                            <img src="assets/img/equalizer_before" alt="Image before equalizer">
+                            <p>This program will build a panoramic image by stitching several images that are taken consecutively. This is done by first projecting the image onto a cylinder. Then we extract the features of each image using SIFT descriptors. Next we find the matching features between each consecutive image. Then we the translation matrix between couple of adjacent images using robust estimator RANSAC. Finally we can construct the panoramic image using this translation matrix.</p>                        
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary"><a href="https://github.com/wishnuputra/CV_LAB4">See project on Github</a></span></div>
                     </div>
@@ -78,6 +77,7 @@
                             <p>
                               This first part of the program will enhance the input image by equalizing the RGB channels of the image. This program will also produce better results by equalizing only the Luminance channel.
                             </p>
+                            <img src="assets/img/before_equalize.png" alt="Image before equalizer">
                             <p>
                               The second part of the program will filter the image using three types of filters which are Median Filter, Gaussian Blur, and Bilateral Filter. This filters are used to soften and blur the input image.
                             </p>
